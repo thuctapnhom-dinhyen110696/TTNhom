@@ -46,12 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\HangHoaCtrl.cs" />
+    <Compile Include="Controller\KhoCtrl.cs" />
+    <Compile Include="Controller\NhanVienCtrl.cs" />
+    <Compile Include="Controller\SinhMaCtrl.cs" />
+    <Compile Include="DAL\DatabaseQuery.cs" />
+    <Compile Include="DAL\HangHoaDAL.cs" />
+    <Compile Include="DAL\KhoDAL.cs" />
+    <Compile Include="DAL\NhanVienDAL.cs" />
+    <Compile Include="DAL\SinhMaDAL.cs" />
     <Compile Include="DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="DAO\HangHoaDAO.cs" />
+    <Compile Include="DAO\KhoDAO.cs" />
     <Compile Include="frMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,6 +153,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

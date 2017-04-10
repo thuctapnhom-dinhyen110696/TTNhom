@@ -16,5 +16,17 @@ namespace QLBH
         {
             InitializeComponent();
         }
+
+        private void hàngHóaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            HangHoa frHH = new HangHoa();
+            frHH.ShowDialog();
+        }
+
+        private void khoHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Kho frKho = new Kho();
+            frKho.ShowDialog();
+        }
     }
 }
